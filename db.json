@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employee": [
+    {
+      "firstName": "ggdg",
+      "lastName": "eretet",
+      "email": "ertet",
+      "gender": "",
+      "dob": "2023-05-01T18:30:00.000Z",
+      "education": "",
+      "company": "gdrsgd",
+      "experience": 1,
+      "package": 43,
+      "id": 1
+    }
+  ]
+}
