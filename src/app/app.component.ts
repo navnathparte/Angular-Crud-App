@@ -4,7 +4,6 @@ import { EmployeeComponent } from './employee/employee.component';
 import { EmployeeService } from './service/employee.service';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
-import * as moment from 'moment';
 import { MatTableDataSource } from '@angular/material/table';
 
 @Component({
@@ -50,7 +49,6 @@ export class AppComponent implements OnInit {
         const res = data.data.map((elt: any) => {
           return {
             ...elt,
-            dob: moment(elt.dob).format('DD-MM-YYYY'),
           };
         });
         this.dataSource = new MatTableDataSource(res);
